@@ -36,6 +36,10 @@ Lilás: #5f2c82
     width: 70vw;
     
   }
+
+  div#formulario p {
+    font-size: 1em;
+  }
 }
 
 @media screen and (min-width: 1025px) {
@@ -49,14 +53,18 @@ Lilás: #5f2c82
   }
 
   div#imagem {
-    float: left;
+    float: right;
     width: 50%;
     height: 100%;
   }
 
   div#fomulario {
-    float: right;
-    width: 50%;
-    
+    float: left;
+    width: 50%;    
+  }
+
+  div#formulario p {
+    font-size: 1.5em;
   }
 }
+
