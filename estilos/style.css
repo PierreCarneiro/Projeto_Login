@@ -29,13 +29,16 @@ section#login {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) ;
+  transform: translate(-50%, -50%);
+  
   background-color: white;
-  height: 31.25rem;
-  width: 15.625rem;
-  border-radius: 1.25rem;
+  height: 500px;
+  width: 250px;
+ 
+  border-radius: 20px;
   overflow: hidden;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.389);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+
   transition: width .5s, height .5s;
   transition-timing-function: ease;
 }
@@ -44,20 +47,81 @@ div#imagem {
   display:block;
   background: #5f2c82 url('../imagens/metal.jpg') no-repeat;
   background-size: cover;
-  height: 12.5rem;
+  height: 200px;
   background-position: left bottom;
 }
 
 div#formulario {
   display:block;
   padding: 10px;
+
+  
 }
 
 h1 {
   text-align: center;
-  margin: bottom 0.5em;
+  margin: bottom 10px;
 }
 
 div#formulario p {
-  font-size: .8em;  
+  font-size: .8em;
+   
+}
+
+div.campo {
+  display: block;
+  margin: 5px 0px;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: #602c827e;
+}
+
+div.campo label {
+  display:none;
+}
+
+input[type="submit"] {
+ 
+  display: block;
+  font-size: 1em;
+  width: 100%;
+  height: 30px;
+
+  border: .1em solid white;
+  border-radius: .3em;
+  
+  font-weight: bold;
+  color: #ffffff;  
+  
+  background-color: #166e69;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #0b3836 ;
+}
+
+a.btn {
+  padding-top: 4px;
+  text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 1em;
+  font-style: italic;
+  width: 100%;
+  height: 30px;
+  background-color: #166e69;
+  border: .1em solid white;
+  border-radius: .3em;
+  cursor: pointer;
+}
+
+a.btn:hover {
+  background-color: #0b3836 ;
+}
+
+a.btn span{
+  font-size: 1.8em;
+  vertical-align: middle;
 }

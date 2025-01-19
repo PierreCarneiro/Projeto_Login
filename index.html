@@ -7,41 +7,39 @@
   <link rel="stylesheet" href="estilos/style.css">
   <link rel="stylesheet" href="estilos/media-query.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
-  
 </head>
 <body>
-  
   <main>
-    <section id="login">
+    <section id="login"> 
       <div id="imagem">
         <!-- Aqui temos a imagem configurado no Style.css -->
       </div>
+      
       <div id="formulario">
         <h1>Login</h1>
-        <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configuraçoes no seu ambiente.</p>
-        <form action="" method="POST" autocomplete="on">
-          <fieldset>
-            <div class="campo">
-              <span class="material-symbols-outlined">
-                person
-              </span>
-              <input type="email" name="email" id="ilogin" placeholder="seu e-mail" autocomplete="email" required maxlength="30">
-              <label for="ilogin">Login</label>
-            </div>
-            <div class="campo">
-              <span class="material-symbols-outlined">
-                vpn_key
-              </span>
-              <input type="password" name="pw" id="ipw" placeholder="senha" autocomplete="current-password" required minlength="8" maxlength="20">
-              <label for="ipw">Senha</label>
-            </div>
-            
-          </fieldset>
-        <p>
-          <input type="submit" value="Entrar">
-          <button> Esqueci a senha</button>
-        </p> 
-        </form>  
+        <p>Bem-vindo(a)!<br/>
+          Faça login e diverta-se em seu ambiente.</p>
+        <form action="logado.html" method="post" autocomplete="on">
+          <div class="campo">
+            <span class="material-symbols-outlined">
+              person
+            </span>
+            <input type="email" name="email" id="ilogin" placeholder="seu e-mail" autocomplete="email" required maxlength="30">
+            <label for "ilogin">Login</label>
+          </div>
+          <div class="campo">
+            <span class="material-symbols-outlined">vpn_key</span>
+            <input type="password" name="pw" id="ipw" placeholder="senha" autocomplete="current-password" required minlength="8" maxlength="20">
+            <label for="ipw">Senha</label>
+                      
+          </div>
+          <p>
+            <input type="submit" value="Entrar">
+            <a href="esquecisenha.html" class="btn">Esqueci a senha 
+             <span class="material-symbols-outlined">mail</span>
+           </a>
+          </p>          
+        </form>          
       </div>
     </section>
   </main>

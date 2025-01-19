@@ -33,13 +33,30 @@ Lilás: #5f2c82
 
   div#fomulario {
     float: right;
-    width: 70vw;
-    
+    width: 70%; 
   }
 
   div#formulario p {
     font-size: 1em;
   }
+
+  div.campo {
+    border: solid, .1em white;
+    width: 73vw;
+  }
+
+  div.campo label {
+    display: inline-block;
+  }
+
+  form input[type="submit"] {
+    width: 50vw;
+  }
+
+  a.btn {  
+    width: 73vw; 
+  }
+
 }
 
 @media screen and (min-width: 1025px) {
@@ -49,7 +66,7 @@ Lilás: #5f2c82
   }
 
   section#login {
-    width: 80vw;
+    width: 1000px;
   }
 
   div#imagem {
@@ -63,8 +80,32 @@ Lilás: #5f2c82
     width: 50%;    
   }
 
+  h1 {
+    font-size:3em;
+  }
+
   div#formulario p {
     font-size: 1.5em;
+  }
+
+  div.campo {
+    border: solid, .1em white;
+    width: 35vw;
+    padding: 0, 10px;
+  }
+
+  div.campo label {
+    display: inline-block;
+  }
+
+  form input[type="submit"] {
+    width: 35vw;
+    height: 50px;
+  }
+
+  a.btn {  
+    width: 35vw; 
+    height:50px;
   }
 }
 
