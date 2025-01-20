@@ -23,6 +23,7 @@ Lilás: #5f2c82
 
   section#login {
     width: 80vw;
+    height: 300px;
   }
 
   div#imagem {
@@ -45,8 +46,9 @@ Lilás: #5f2c82
     width: 73vw;
   }
 
-  div.campo label {
-    display: inline-block;
+  div.campo input {
+    width: 40vw;
+    border-radius: 5px;
   }
 
   form input[type="submit"] {
@@ -67,6 +69,7 @@ Lilás: #5f2c82
 
   section#login {
     width: 1000px;
+    height: 400px;
   }
 
   div#imagem {
@@ -86,6 +89,7 @@ Lilás: #5f2c82
 
   div#formulario p {
     font-size: 1.5em;
+    margin: 10px 0;
   }
 
   div.campo {
@@ -94,8 +98,9 @@ Lilás: #5f2c82
     padding: 0, 10px;
   }
 
-  div.campo label {
-    display: inline-block;
+  div.campo input {
+    width: 27vw;
+    border-radius: 5px;
   }
 
   form input[type="submit"] {
